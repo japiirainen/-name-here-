@@ -1,10 +1,10 @@
 export interface Theme {
-	name: string;
+	name: string
 	color: {
-		backgroundColor: string;
-		primary: string;
-		secondary: string;
-	};
+		backgroundColor: string
+		primary: string
+		secondary: string
+	}
 }
 
 export const lightTheme: Theme = {
@@ -14,7 +14,7 @@ export const lightTheme: Theme = {
 		primary: '#007bff',
 		secondary: '#6c757d',
 	},
-};
+}
 
 export const darkTheme: Theme = {
 	name: 'DARK',
@@ -23,4 +23,4 @@ export const darkTheme: Theme = {
 		primary: '#fff',
 		secondary: '#6c757d',
 	},
-};
+}
