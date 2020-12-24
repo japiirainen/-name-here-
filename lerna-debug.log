@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'components',
+0 silly argv   dev: true,
+0 silly argv   D: true,
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   pkg: '@babel-loader'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/joona/dev/name-here
+3 info versioning independent
+4 error Error: Invalid tag name "@babel-loader": Tags may not have any characters that encodeURIComponent encodes.
+4 error     at invalidTagName (/Users/joona/dev/name-here/node_modules/npm-package-arg/npa.js:91:15)
+4 error     at fromRegistry (/Users/joona/dev/name-here/node_modules/npm-package-arg/npa.js:296:13)
+4 error     at resolve (/Users/joona/dev/name-here/node_modules/npm-package-arg/npa.js:81:12)
+4 error     at npa (/Users/joona/dev/name-here/node_modules/npm-package-arg/npa.js:52:10)
+4 error     at AddCommand.initialize (/Users/joona/dev/name-here/node_modules/@lerna/add/index.js:39:17)
