@@ -47,6 +47,6 @@
     "js:watch": "rimraf ./lib && cross-env NODE_ENV=development concurrently -k -n \"typescript,babel\" -c \"blue.bold,yellow.bold\"  \"tsc -p tsconfig.json --watch\" \"babel src --out-dir lib --source-maps --extensions \".ts,.tsx,.js,.jsx,.mjs\" --copy-files --watch --verbose\"",
     "test": "jest",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json || true",
-    "storybook": "start-storybook -p 8080"
+    "storybook": "start-storybook -p 8888"
   }
 }
