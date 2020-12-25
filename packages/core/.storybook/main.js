@@ -8,9 +8,9 @@ module.exports = {
 					loader: require.resolve('ts-loader'),
 				},
 			],
-		});
-		config.resolve.extensions.push('.ts', '.tsx');
-		return config;
+		})
+		config.resolve.extensions.push('.ts', '.tsx')
+		return config
 	},
 	addons: [
 		'@storybook/addon-docs',
@@ -20,5 +20,8 @@ module.exports = {
 		'@storybook/addon-knobs/register',
 		'storybook-addon-styled-component-theme/dist/register',
 		'@storybook/addon-jest/register',
+		'@storybook/addon-links',
+		'@storybook/addon-storyshots',
+		'@storybook/addon-info',
 	],
-};
+}

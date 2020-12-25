@@ -1,7 +1,7 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
 import { text } from '@storybook/addon-knobs'
-import { Button } from '..'
+import { Button } from '.'
 
 export default {
 	title: 'Sample / Button',
@@ -10,7 +10,7 @@ export default {
 
 export const withText: any = () => (
 	<Button
-		value={text('value', 'klikkaa minua')}
+		value={text('value', 'click me')}
 		onClickHandler={action('button-click')}
 	/>
 )
