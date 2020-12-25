@@ -11,7 +11,7 @@
   "author": "japiirainen <joona.piirainen@gmail.com>",
   "license": "MIT",
   "lint-staged": {
-    "packages/**/*.{js,ts,jsx,tsx}": [
+    "packages/**/src/*.{js,ts,jsx,tsx}": [
       "eslint --color --fix"
     ]
   },
