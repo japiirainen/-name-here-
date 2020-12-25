@@ -2,7 +2,7 @@ import React from 'react'
 import { mount } from 'enzyme'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme } from '../../../themes'
-import { Button } from '../Button'
+import { Button } from '..'
 
 const clickFn = jest.fn()
 describe('Button', () => {
