@@ -1,10 +1,12 @@
 {
   "name": "@name-here/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/japiirainen/-name-here-.git",
   "main": "build/index.js",
   "module": "build/index.es.js",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
