@@ -9,8 +9,8 @@ const getDeviceConfig = (width: number) => {
 	}
 }
 
-export const useBreakpoint = () => {
-	const [brkPnt, setBrkPnt] = useState(() =>
+export const useBreakpoint = (): 'md' | 'sm' => {
+	const [brkPnt, setBrkPnt] = useState<'sm' | 'md'>(() =>
 		getDeviceConfig(window.innerWidth)
 	)
 
