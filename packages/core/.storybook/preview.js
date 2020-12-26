@@ -25,7 +25,7 @@ addDecorator(
 addParameters({
 	options: {
 		brandTitle: 'Awesome component library',
-		brandUrl: 'https://github.com/japiirainen',
+		brandUrl: 'https://github.com/japiirainen/-name-here-',
 		showRoots: true,
 	},
 })
