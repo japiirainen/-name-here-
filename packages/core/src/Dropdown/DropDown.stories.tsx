@@ -2,34 +2,49 @@ import React from 'react'
 import { text } from '@storybook/addon-knobs'
 import { useDisclosure } from '../UtilFns'
 import { DropDownButton } from '.'
+import { NameHereProvider } from '../Theming'
 
 export default {
 	title: 'DropDown',
 	component: DropDownButton,
 }
 
-export const DropDownButtonStory: React.FC = () => {
+export const DropDownButtonWithChevron: React.FC = () => {
 	const { onToggle, isOpen } = useDisclosure()
 	return (
-		<div style={{ display: 'flex', margin: '20px' }}>
+		<NameHereProvider>
 			<DropDownButton
-				label={text('label', 'with chevron')}
+				label={text('label', 'DropDownButton')}
 				onToggle={onToggle}
 				isOpen={isOpen}
 				chevronRight={true}
 			/>
+		</NameHereProvider>
+	)
+}
+
+export const DropDownButtonNoChevron: React.FC = () => {
+	const { onToggle, isOpen } = useDisclosure()
+	return (
+		<NameHereProvider>
 			<DropDownButton
-				label={text('label', 'without chevron')}
+				label={text('label', 'WithoutChevron')}
 				onToggle={onToggle}
 				isOpen={isOpen}
 				chevronRight={false}
 			/>
-		</div>
+		</NameHereProvider>
 	)
 }
 
 //@ts-ignore
-DropDownButtonStory.story = {
+DropDownButtonWithChevron.story = {
+	parameters: {
+		jest: ['Button.test.tsx'],
+	},
+}
+//@ts-ignore
+DropDownButtonNoChevron.story = {
 	parameters: {
 		jest: ['Button.test.tsx'],
 	},
