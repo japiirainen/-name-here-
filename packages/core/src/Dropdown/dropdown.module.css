@@ -1,0 +1,131 @@
+/* Dropdown buttons */
+.puheetddbutton {
+	position: relative;
+	border: none;
+	color: var(--puheettextcolor);
+	background-color: inherit;
+	font-family: var(--puheetmainfont);
+	font-size: var(--puheetmainfontsize);
+	font-weight: var(--puheetmainfontweight);
+	display: flex;
+	align-self: flex-start;
+}
+
+.ddbuttonicon {
+	margin-left: 6px;
+}
+
+.ddbuttoncontainer {
+	display: flex;
+	align-items: center;
+}
+
+.puheetddbutton:focus {
+	outline: none;
+}
+
+.puheetddbutton:hover {
+	cursor: pointer;
+	color: var(--puheetblue_01);
+}
+
+.puheetsvgiconbutton {
+	border: none;
+	background-color: inherit;
+	align-self: center;
+	margin-right: 10px;
+}
+.puheetsvgiconbutton:focus {
+	outline: none;
+}
+
+.ddblue {
+	color: var(--puheetblue_01);
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Dropdown wrapper */
+
+.puheetdropdownwrapper {
+	position: relative;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Dropdown */
+
+.puheetdropdown {
+	box-shadow: 0 2px 4px 0 var(--puheettextcolor);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	min-width: 180px;
+	background-color: white;
+	z-index: 200;
+	position: absolute;
+	border-radius: 2px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.bottomright {
+	left: 100%;
+}
+
+.bottomleft {
+	right: 100%;
+}
+
+.bottom {
+	left: 0;
+}
+
+.right {
+	top: 0;
+	left: 100%;
+}
+
+.bottomslightlyleft {
+	right: 0%;
+}
+
+.open {
+	display: flex;
+}
+
+.closed {
+	display: none;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Dropdown item */
+
+.puheetdropdownitem {
+	display: flex;
+	padding: 6px 0 6px 10px;
+	color: var(--puheettextcolor);
+	text-decoration: none;
+	align-self: flex-start;
+	font-family: Gellix-SemiBold, sans-serif !important;
+	font-size: var(--puheetmainfontsize);
+	width: 180px;
+}
+
+.puheetdropdownitem:hover {
+	color: var(--puheetblue_01) !important;
+	background-color: var(--puheetlightblue) !important;
+}
+
+.dditemopen {
+	color: var(--puheetblue_01) !important;
+	background-color: var(--puheetlightblue) !important;
+}
+/* ---------------------------------------------------------------- */
+
+/* Dropdown item */
+
+.puheetdropdownlinebreak {
+	border-bottom: 1px solid var(--puheettextcolor);
+}
