@@ -68,5 +68,5 @@
     "build:storybook": "build-storybook -c .storybook -o dist/",
     "build:rollup": "rollup -c"
   },
-  "gitHead": "8aef5e998148eb5dfc15e72fa6774160a654cffd"
+  "gitHead": "f666f06356bd299926bfeeebfdf1299cd67ffd4b"
 }
