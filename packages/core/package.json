@@ -1,5 +1,5 @@
 {
-  "name": "@react-jp/core",
+  "name": "@name-here/core",
   "version": "0.0.7",
   "repository": "https://github.com/japiirainen/react-jp.git",
   "main": "build/index.js",
@@ -68,5 +68,5 @@
     "build:storybook": "build-storybook -c .storybook -o dist/",
     "build:rollup": "rollup -c"
   },
-  "gitHead": "b5f54e4ff9ef6e209e8d65b812b41e9c1363d72e"
+  "gitHead": "a9d812e13aadb621e17c0f6372cdef117a8e3c7f"
 }
