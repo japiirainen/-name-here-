@@ -1,6 +1,6 @@
 {
   "name": "@react-jp/core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": "https://github.com/japiirainen/react-jp.git",
   "main": "build/index.js",
   "module": "build/index.es.js",
