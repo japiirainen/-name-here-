@@ -1,7 +1,7 @@
 {
-  "name": "@name-here/core",
+  "name": "@react-jp/core",
   "version": "0.0.2",
-  "repository": "https://github.com/japiirainen/-name-here-.git",
+  "repository": "https://github.com/japiirainen/react-jp.git",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "files": [

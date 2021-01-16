@@ -1,5 +1,5 @@
 {
-  "name": "name-here",
+  "name": "react-jp",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
@@ -7,7 +7,7 @@
   ],
   "description": "react component library focusing on ease of use and performance",
   "main": "index.js",
-  "repository": "https://github.com/japiirainen/-name-here-.git",
+  "repository": "https://github.com/japiirainen/react-jp.git",
   "author": "japiirainen <joona.piirainen@gmail.com>",
   "license": "MIT",
   "lint-staged": {
