@@ -67,5 +67,6 @@
     "prebuild:storybook": "rimraf .jest-test-results.json && yarn test:generate-output",
     "build:storybook": "build-storybook -c .storybook -o dist/",
     "build:rollup": "rollup -c"
-  }
+  },
+  "gitHead": "8aef5e998148eb5dfc15e72fa6774160a654cffd"
 }
